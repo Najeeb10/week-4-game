@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Crystal Collector</title>
+	 
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<div><h1>Crystal Collector</h1></div>
+	
+	<div class="instruction">
+		<ol>
+			<h2>Instructions  ~ </h2>
+			<li>You will be chosen a random number at the start of the game.</li>
+			<li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+			<li>You win if you can match your total score to the random number, you lose if your total score goes above the random number.</li>
+			<li>The value of each crystal is hidden from you until you click on it.</li> 
+			<li>Each time the game starts, the value of each crystal will change.</li>
+		</ul>
+	</div>
+
+	<div class="randomScore">
+		<div id="random"></div>
+		<div id="score">Score board</div>
+	</div>
+
+	<div class="crystalsDisplay">
+		<img id="amberCrystal" class="crystal" src="assets/images/amberCrystal.png">
+		<img id="blueCrystal" class="crystal" src="assets/images/blueCrystal.png">
+		<img id="greenCrystal" class="crystal" src="assets/images/greenCrystal.png">
+		<img id="redCrystal" class="crystal" src="assets/images/redCrystal.png">
+	</div>
+
+	<div class="total">
+		Total Score
+		<div id="totalScore"></div>
+		<div id="total-score">Total Score</div>
+	</div>
+
+
+	<footer>
+		<p>Copyright &copy; 2017 Najeeb Sabour</p>
+	</footer>
+
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>
